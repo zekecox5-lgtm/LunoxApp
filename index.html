@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Discord Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <div class="sidebar">
+      <h2>Server</h2>
+      <div class="channel"># general</div>
+      <div class="channel"># chat</div>
+      <div class="channel"># gaming</div>
+    </div>
+
+    <div class="chat">
+      <div class="top"># general</div>
+      <div id="messages" class="messages">
+        <div class="msg"><b>System:</b> Welcome!</div>
+      </div>
+      <div class="input">
+        <input id="input" placeholder="Message #general" />
+        <button onclick="send()">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
